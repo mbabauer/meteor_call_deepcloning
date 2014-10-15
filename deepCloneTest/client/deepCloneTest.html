@@ -1,0 +1,17 @@
+<head>
+    <title>deepCloneTest</title>
+</head>
+
+<body>
+<h1>Welcome to Meteor!</h1>
+
+{{> tests}}
+</body>
+
+<template name="tests">
+    {{#if message}}
+        <div>{{message}}</div>
+    {{/if}}
+    <button id="working">Test Working Call</button>
+    <button id="broken">Test Broken Call</button>
+</template>
